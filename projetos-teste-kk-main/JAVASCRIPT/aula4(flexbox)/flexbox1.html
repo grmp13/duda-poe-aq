@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        article {
+            background-color: aqua;
+            padding: 5px 10px;
+            margin: 5px;
+            flex: 33%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Exemplo com Flexbox</h2>
+    </header>
+    <!--Container pai dos article-->
+    <section>
+        <!--Início article 1-->
+        <article>
+            <h3>Primeiro artigo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates id earum iure sequi
+                nesciunt quo non illum animi laborum maiores, perspiciatis quos obcaecati autem eveniet facere! A,
+                quisquam maxime!
+            </p>
+        </article>
+        <!--Início article 2-->
+        <article>
+            <h3>Segundo artigo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates id earum iure sequi
+                nesciunt quo non illum animi laborum maiores, perspiciatis quos obcaecati autem eveniet facere! A,
+                quisquam maxime!
+            </p>
+        </article>
+        <!--Início article 3-->
+        <article>
+            <h3>Terceiro artigo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates id earum iure sequi
+                nesciunt quo non illum animi laborum maiores, perspiciatis quos obcaecati autem eveniet facere! A,
+                quisquam maxime!
+            </p>
+        </article>
+        <!--Início article 4-->
+        <article>
+            <h3>Quarto artigo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates id earum iure sequi
+                nesciunt quo non illum animi laborum maiores, perspiciatis quos obcaecati autem eveniet facere! A,
+                quisquam maxime!
+            </p>
+        </article>
+    </section>
+</body>
+
+</html>

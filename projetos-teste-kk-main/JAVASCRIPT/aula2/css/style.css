@@ -1,0 +1,20 @@
+body{
+    background-color: lightpink;
+
+}
+p{
+    color: red;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.vermelho{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#verde{
+    color: green;
+    font-size: italic;
+}

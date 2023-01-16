@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+.div1{
+    background-color: black;
+    position: relative;
+}
+.div2{
+    background-color: brown;
+    position: relative;
+    left: 100px;
+}
+.div3{
+    background-color: aquamarine;
+    position: relative;
+    left: 200px;
+}
+.div4{
+    background-color: rgb(63, 224, 9);
+    position: relative;
+    left: 300px;
+}
